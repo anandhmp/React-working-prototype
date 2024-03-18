@@ -1,0 +1,41 @@
+.carousel{
+    overflow: hidden;
+}
+.inner{
+    white-space: nowrap;
+    transition: transform 0.3s;
+}
+.carousel-item{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 30px;
+    
+}
+.carousel-item {
+    position: relative;
+}
+
+.prev-btn,
+.next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    border: none;
+    color: #626262;
+    height: 10px;
+    font-size: larger;
+}
+
+.prev-btn {
+    left: 0;
+    margin-left: 10px;
+    border: none;
+}
+
+.next-btn {
+    right: 0;
+    margin-right: 10px;
+}
+
